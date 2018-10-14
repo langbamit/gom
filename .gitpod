@@ -1,0 +1,5 @@
+image:
+  file: docker/Dockerfile
+  # context: docker
+tasks:
+  - command: 'yarn'

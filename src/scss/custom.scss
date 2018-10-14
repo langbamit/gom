@@ -1,0 +1,39 @@
+@import 'functions/index';
+@import 'variables/index';
+@import 'base/index';
+
+$navbar-height: $nav-link-padding-y * 2 + $nav-link-height;
+
+body {
+	min-height: 100vh;
+	padding-top: $navbar-height;
+}
+
+#web_client {
+	height: 100%;
+
+	.main_content {
+		padding-left: 230px;
+	}
+
+	.sidebar {
+		position: fixed;
+		width: 230px;
+		height: calc(100vh - #{$navbar-height});
+		left: 0;
+		top: 0;
+
+		&.sticky-offset {
+			top: $navbar-height; // Navbar height
+		}
+	}
+}
+
+.gom_apps {
+	display: flex;
+	flex-flow: row wrap;
+
+	.gom_app {
+		width: 1 / 6 * 100%;
+	}
+}

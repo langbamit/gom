@@ -1,0 +1,14 @@
+{
+    "menus": [
+        {"id": 1, "name": "Sale", "icon": "fa fa-dollar", "type":"url", "url": "/menu/sale"},
+        {"id": 2, "name": "Purchase", "icon": "fa fa-dollar", "type":"url", "url": "/menu/purchase"},
+        {"id": 3, "name": "Invoice", "icon": "fa fa-dollar", "type":"url", "url": "/menu/invoice"},
+        {"id": 4, "name": "Contact", "icon": "fa fa-dollar", "type":"url", "url": "/menu/contact"},
+        {"id": 5, "name": "Employees", "icon": "fa fa-dollar", "type":"url", "url": "/menu/employees"},
+        {"id": 6, "name": "Link Tracker", "icon": "fa fa-dollar", "type":"url", "url": "/menu/link-tracker"},
+        {"id": 7, "name": "SMS", "icon": "fa fa-dollar", "type":"url", "url": "/menu/sms"},
+        {"id": 8, "name": "Dashboards", "icon": "fa fa-dollar", "type":"url", "url": "/menu/dashboards"},
+        {"id": 9, "name": "Marketing", "icon": "fa fa-dollar", "type":"url", "url": "/menu/marketing"},
+        {"id": 10, "name": "Settings", "icon": "fa fa-dollar", "type":"url", "url": "/menu/settings"}
+    ]
+}

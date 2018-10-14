@@ -1,0 +1,11 @@
+[package]
+name = "gom"
+version = "0.1.0"
+authors = ["0x130C <0x130c@gmail.com>"]
+edition = "2018"
+
+[lib]
+crate-type = ["cdylib"]
+
+[dependencies]
+wasm-bindgen = "0.2"
