@@ -1,0 +1,17 @@
+{
+	"folders": [
+		{
+			"path": "../"
+		},
+		{
+			"path": "../crate/lib"
+		},
+		{
+			"path": "../crate/server"
+		},
+		{
+			"path": "../mobile"
+		}
+	],
+	"settings": {}
+}

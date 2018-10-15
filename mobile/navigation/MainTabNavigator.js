@@ -7,7 +7,7 @@ import {
 
 import TabBarIcon from '../components/TabBarIcon'
 import HomeScreen from '../screens/HomeScreen'
-import LinksScreen from '../screens/LinksScreen'
+import ChatScreen from '../screens/ChatScreen'
 import SettingsScreen from '../screens/SettingsScreen'
 import MapScreen from '../screens/MapScreen'
 
@@ -29,12 +29,12 @@ HomeStack.navigationOptions = {
 	)
 }
 
-const LinksStack = createStackNavigator({
-	Links: LinksScreen
+const ChatStack = createStackNavigator({
+	Chat: ChatScreen
 })
 
-LinksStack.navigationOptions = {
-	tabBarLabel: 'Links',
+ChatStack.navigationOptions = {
+	tabBarLabel: 'Chat',
 	tabBarIcon: ({ focused }) => (
 		<TabBarIcon
 			focused={focused}
@@ -83,7 +83,7 @@ MapStack.navigationOptions = {
 
 export default createBottomTabNavigator({
 	HomeStack,
-	LinksStack,
+	ChatStack,
 	MapStack,
 	SettingsStack
 })

@@ -14,9 +14,11 @@
   },
   "dependencies": {
     "expo": "^30.0.1",
+    "firebase": "^5.5.4",
     "react": "16.5.2",
     "react-native": "https://github.com/expo/react-native/archive/sdk-30.0.0.tar.gz",
     "react-native-gifted-chat": "^0.4.3",
+    "react-native-keyboard-spacer": "^0.4.1",
     "react-navigation": "^2.18.0"
   },
   "devDependencies": {

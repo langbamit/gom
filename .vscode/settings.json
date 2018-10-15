@@ -5,6 +5,7 @@
 		"**/.hg": true,
 		"**/CVS": true,
 		"**/.DS_Store": true,
-		"crate": true
+		"crate": true,
+		"mobile": true
 	}
 }
